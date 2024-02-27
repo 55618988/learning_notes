@@ -28,3 +28,7 @@
 int main(){
 return 0;
 }
+数学公式：与Latex用法相同
+&&
+ sin^ + cos^  = 1
+&&
