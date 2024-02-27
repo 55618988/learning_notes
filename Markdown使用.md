@@ -31,7 +31,7 @@ return 0;
 ```
 数学公式：与Latex用法相同
 $$
-\frac{\partial f}{\partial x} = 2\sqrt{a}x
+ \frac{abc123}{xyz123}
 $$
 
 
