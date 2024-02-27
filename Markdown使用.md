@@ -33,3 +33,5 @@ return 0;
 $$
 \frac{\partial f}{\partial x} = 2\sqrt{a}x
 $$
+
+
