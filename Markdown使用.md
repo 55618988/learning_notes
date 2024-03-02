@@ -9,7 +9,7 @@
 
 >这是一次引用
 /* > 之后是引用 */
-
+---
 有序列表：
  1. 吃早饭
  2. 睡觉
@@ -25,24 +25,25 @@
 - [ ] 过早
 - [x] 过午
 - [x] 过晚
-
+---
 代码块： 
 ```c
 int main(){
 return 0;
 }
 ```
+---
 数学公式：与Latex用法相同
 $$
  \frac{abc123}{xyz123}
 $$
-
-表格:
+---
+>表格:
 |姓名|年龄|成绩|
 |:---|---:|:---:|      
 |张三|19|99|                //冒号左边是左对齐，冒号在右边是右对齐，冒号在中间时居中对齐
 |李四|19|98|                
-
+---
 横线：
 
 ---
@@ -50,7 +51,7 @@ $$
 链接：
 这是一个链接[Markdown教程](https://www.runoob.com/markdown/md-tutorial.html)
 
-[emoji链接](https://unicode.org/emoji/charts/full-emoji-list.html "emoji的unicode")
+[emoji链接](https://www.webfx.com/tools/emoji-cheat-sheet/ "emoji的unicode")
 
 [bilibili](https://www.bilibili.com/)
 
@@ -60,9 +61,22 @@ $$
 
 请参考[第一标题](#第一标题)
 
-图片：
+---
+>图片：网站格式前加一个！
 
-![百度][def]
+![WUT][def]
 
-[def]: www.baidu.com
+[def]: https://webvpn.whut.edu.cn/wengine-vpn/js/image/logo.png
+---
+>字体
 
+*斜体* 
+**加粗**
+ `printf()` 
+  <u>下划线</u>
+  
+  :joy::smile:
+
+  $\theta=x^2$
+
+H~2~O  X^2^
